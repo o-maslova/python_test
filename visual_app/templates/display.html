@@ -1,0 +1,12 @@
+<html>
+    <body>
+        {% if db == None %}
+            <p><b>Your list is empty now.</b></p>
+        {% else %}
+            <p><b>Your lists:</b></p>
+            {% for key, value in db.items() %}
+            <div><p><b>{{ key }}:</b> {{ value }}</p></div>
+            {% endfor %}
+        {% endif %}
+    </body>
+</html>
