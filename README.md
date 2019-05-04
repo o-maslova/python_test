@@ -4,9 +4,8 @@ Simple web application
 Dependencies: flask, redis, redis-server
 
 Firstly, if it wasn't previosly installed, you need to install required packages for app deployment:
-sudo pip install flask
-sudo pip install redis
-sudo pip install redis-server
+  - cd  _directory_in_which_you_clone_the_app
+  - sudo pip install -r directory/requirements.txt
 
 The app is implemented in two ways: with simple GUI (visual_app) and without it (simple_app).
 For testing visual_app you need to run file visual_app/visual.py. Then open new terminal window and enter next commands:
